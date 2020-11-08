@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+hr {
+  border: dotted #eaf6f6 9px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+h1 {
+  line-height: 1.5;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #11999E;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: #11999E;
+  font-weight: normal;
+  margin: 40px auto 60px;
+}
+
+.PROgrammer {
+  text-decoration: underline;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 200px;
+  line-height: 2;
+}
+
+.mountain {
+  width: 700px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 150px;
+  max-width: 200px;
+}
+
+.bot-cloud {
+  position: absolute;
+  left: 450px;
+  bottom: 350px;
+  max-width: 800px;
+}
+
+.mid-container {
+  margin: 100px 0;
+}
+
+.intro {
+  line-height: 2;
+  width: 30%;
+  margin: auto;
+}
+
+.profile-picture {
+  border-radius: 100px;
+}
+
+.hobbies-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.imagini-hobbies {
+  width: 6%;
+  float: right;
+  margin-left: 20px;
+}
+
+.titluri {
+  text-align: center;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.img-contact {
+  width: 7%;
+}
+
+.bot-container {
+  line-height: 2;
+  background-color: #66bfbf;
+  padding: 50px;
+  color: #eaf6f6;
+}
+
+.footer-link {
+  color: #11999E;
+  position: relative;
+  padding-right: 15px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #eaf6f6;
+}
+
+.btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 10px 20px;
+  background-color: #11999E;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #EAF6F6 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #11999E;
+  border: solid #66BFBF 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
